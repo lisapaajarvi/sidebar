@@ -1,0 +1,17 @@
+
+body {
+    background-color: aqua;
+}
+
+.sidebar {
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 20rem;
+    background-color: greenyellow;
+    opacity: 0.8;
+    border-right: 0.5rem solid slateblue
+}
+
