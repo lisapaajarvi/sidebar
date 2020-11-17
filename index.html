@@ -5,11 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sidebar exercise</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/5fe505aff9.js" crossorigin="anonymous"></script>
     <script src="./script.js"></script>
+
 </head>
 <body>
-<div class="sidebar">
-
+<div class="sidebar flex column" id="sidebar-div">
+    <div class="user-div"></div>
+    <div class="menu flex column">
+        <ul>
+            <li class="flex align-center space-between">
+                <i class="fas fa-search"></i> 
+                <p>Sök</p>
+            </li>
+            <li class="flex align-center space-between">
+                <i class="fas fa-home"></i> 
+                <p>Hem</p>
+            </li>           
+            <li class="flex align-center space-between">
+                <i class="fas fa-desktop"></i>
+                <p>Serier</p>
+            </li>
+            <li class="flex align-center space-between">
+                <i class="fas fa-film"></i>
+                <p>Filmer</p>
+            </li>
+            <li class="flex align-center space-between">
+                <i class="fas fa-plus"></i>
+                <p>Min lista</p>
+            </li>
+            <li class="flex align-center space-between">
+                <i class="fas fa-newspaper"></i>
+                <p>Nyheter</p>
+            </li>
+        </ul>
+    </div>
+    <div class="flex space-between"> <p>Inställningar</p> <i class="fas fa-times fa-3x" id="close-sidebar-icon"></i></div>
 </div>
 <button id="open-sidebar-button">Open sidebar</button>
 </body>
