@@ -11,36 +11,39 @@
 </head>
 <body>
 <div class="sidebar flex column" id="sidebar-div">
-    <div class="user-div"></div>
-    <div class="menu flex column">
+    <div class="user flex space-around align-center" id="user-div">
+        <img src="./Tristan.jpg" alt="user image">
+        <h4>FluffyGuineaPig</h4>
+    </div>
+    <div class="menu flex column" id="menu-div">
         <ul>
-            <li class="flex align-center space-between">
+            <li id="search">
                 <i class="fas fa-search"></i> 
                 <p>Sök</p>
             </li>
-            <li class="flex align-center space-between">
+            <li id="home">
                 <i class="fas fa-home"></i> 
                 <p>Hem</p>
             </li>           
-            <li class="flex align-center space-between">
+            <li id="series">
                 <i class="fas fa-desktop"></i>
                 <p>Serier</p>
             </li>
-            <li class="flex align-center space-between">
+            <li id="movies">
                 <i class="fas fa-film"></i>
                 <p>Filmer</p>
             </li>
-            <li class="flex align-center space-between">
+            <li id="my-list">
                 <i class="fas fa-plus"></i>
                 <p>Min lista</p>
             </li>
-            <li class="flex align-center space-between">
+            <li id="news">
                 <i class="fas fa-newspaper"></i>
                 <p>Nyheter</p>
             </li>
         </ul>
     </div>
-    <div class="flex space-between"> <p>Inställningar</p> <i class="fas fa-times fa-3x" id="close-sidebar-icon"></i></div>
+    <div class="flex space-between settings" id="settings-div"> <p>Inställningar</p> <i class="fas fa-times fa-3x" id="close-sidebar-icon"></i></div>
 </div>
 <button id="open-sidebar-button">Open sidebar</button>
 </body>

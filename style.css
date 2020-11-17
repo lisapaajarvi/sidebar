@@ -15,18 +15,23 @@ body {
     background-color: greenyellow;
     opacity: 0.8;
     border-right: 0.5rem solid slateblue;
+    overflow: hidden;
 }
 
 .menu {
-    display: none;
+    display: flex;
 }
 .settings {
-    display: none;
+    display: flex;
     margin-left: 2.25rem;
     margin-right: 2rem;
 }
+.user {
+    display: flex;
+    margin: 1rem;
+}
 ul {
-    list-style-type: none;
+    list-style-type: flex;
     margin-right: 2rem;
 }
 
@@ -35,12 +40,16 @@ li {
     align-items: center;
     justify-content: space-between;
 }
+
+img {
+    width: 20%;
+    border: 0.2rem solid black;
+}
 /* REUSABLE CLASSES */
 
 .flex {
     display: flex;
 }
-
 .center {
     justify-content: center;
     align-items: center;
@@ -51,6 +60,10 @@ li {
 
 .space-between {
     justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
 }
 .column {
     flex-direction: column;
