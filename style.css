@@ -14,9 +14,27 @@ body {
     width: 0;
     background-color: greenyellow;
     opacity: 0.8;
-    border-right: 0.5rem solid slateblue
+    border-right: 0.5rem solid slateblue;
 }
 
+.menu {
+    display: none;
+}
+.settings {
+    display: none;
+    margin-left: 2.25rem;
+    margin-right: 2rem;
+}
+ul {
+    list-style-type: none;
+    margin-right: 2rem;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 /* REUSABLE CLASSES */
 
 .flex {
@@ -26,6 +44,13 @@ body {
 .center {
     justify-content: center;
     align-items: center;
+}
+.align-center {
+    align-items: center;
+}
+
+.space-between {
+    justify-content: space-between;
 }
 .column {
     flex-direction: column;
